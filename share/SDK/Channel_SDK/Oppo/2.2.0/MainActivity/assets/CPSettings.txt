@@ -1,0 +1,17 @@
+{
+"readme":"Oppo",
+"cp_id":"1001",
+"sdk_name":"Oppo",
+"app_id":"5021",
+"app_key":"E66bk2fk368844wk0KwCc8440",
+"secret_key":"4A67d3c0411bC1B9deF27C0007355f20",
+"sdk_cp_id":"",
+"sdk_request_and_support":"support_exit_window",
+"channel_id":"10",
+"TypeBonjourName": "null",
+"unity_reciver":"TypeSDK",
+"pay_rate":"1",
+"switchconfig_url":"http://api.demo.typesdk.com:30003/getConfig/1001/3/config.txt",
+"pay_call_back_url":"http://120.27.201.22:40001/1001/10/Pay",
+"platform":"unity"
+}

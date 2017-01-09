@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="@package@"
+    android:versionCode="@version.code@"
+    android:versionName="@version.name@"
+    android:installLocation="auto">
+
+  <uses-sdk android:minSdkVersion="@minSdkVersion@" 
+      android:targetSdkVersion="@targetSdkVersion@" />
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    
+    
+    	  <!-- baselib permission start -->
+    <!-- 获取设备信息权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 自动装权限 -->
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+    <!-- 获取指定Tag日志需要的权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 获取网络状态并存到本地需要的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 崩溃日志收集 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 本地推送 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- baselib permission end -->
+    
+    
+    <!-- oppo sdk -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!-- oppo end -->
+    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-feature android:name="android.hardware.touchscreen" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch.distinct"
+        android:required="false" />
+
+    <application
+        android:name="com.type.sdk.application.TypeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppTheme" >
+		
+        <!-- baselib config start -->
+        <service
+            android:name="com.type.sdk.notification.PushService"
+            android:enabled="true"
+            android:process=":message" >
+        </service>
+
+        <receiver android:name="com.type.sdk.notification.BootBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <!--  service
+            android:name="com.type.sdk.android.typeAccessibility"
+            android:label="@string/accessibility_service_label"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility_service_config" />
+        </service -->
+        <!-- baselib config end -->
+        
+        <activity
+            android:name="com.type.sdk.android.oppo.MainActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape" >
+			
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+            <meta-data
+                android:name="unityplayer.ForwardNativeEventsToDalvik"
+                android:value="false" />
+        </activity>
+		
+		<!-- nearme game sdk config goes here -->
+        <meta-data android:name="debug_mode" android:value="false" />    <!-- 日志开关，发布时候设置为false -->
+		<meta-data android:name="is_offline_game" android:value="false" />  <!-- true:单机游戏   false:网游 -->
+		<meta-data android:name="app_key" android:value="@app_key@" />  <!-- appKey -->
+        
+		<activity
+			android:name="com.nearme.game.sdk.component.proxy.ProxyActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:theme="@style/Theme_Dialog_Custom"
+			android:process=":gcsdk">
+		</activity>
+		<service
+			android:name="com.nearme.game.sdk.component.proxy.ProxyApiService"
+			android:process=":gcsdk"
+			android:priority="1000">
+		</service>
+        <receiver
+            android:name="com.nearme.game.sdk.component.proxy.ProxyUserCenterOperateReceiver"
+            android:exported="true" 
+            android:process=":gcsdk">
+            <intent-filter>
+                <action android:name="com.oppo.usercenter.account_login" />
+                <action android:name="com.oppo.usercenter.account_logout" />
+                <action android:name="com.oppo.usercenter.modify_name" />
+            </intent-filter>
+        </receiver>
+        <!-- nearme game sdk config end -->        
+    </application>
+
+</manifest>

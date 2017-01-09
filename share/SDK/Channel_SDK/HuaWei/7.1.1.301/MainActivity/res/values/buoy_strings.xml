@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="buoy_validParamFail">The app ID or CP ID is invalid.</string>
+    <string name="buoy_noInit">SDK not initialized.</string>
+    <string name="buoy_close">Close</string>
+    <string name="buoy_cancel">Cancel</string>
+    <string name="buoy_update">Update</string>
+    <string name="buoy_confirm">Install</string>
+    <string name="buoy_app_update">App update</string>
+    <string name="buoy_initProgress">Initializing SDK…</string>
+    <string name="buoy_noNetwork">No Internet connection.</string>
+    <string name="buoy_login_fail">Login failed. Please try again.</string>
+    <string name="buoy_async_login_notice">Welcome %1$s</string>
+    <string name="buoy_notification_title_game_coupon">Game tickets received, touch to view</string>
+    <string name="buoy_download_gamebox_tips">Downloading HiGame…</string>
+    <string name="buoy_dialog_download_gamebox_tips">You need to install the latest HiGame version to use this feature. Install it?</string>
+    <string name="buoy_dialog_download_gamebox_title">Notice</string>
+    <string name="buoy_download_notification_tips">Downloading…</string>
+    <string name="buoy_gamebox_appname">HiGame</string>
+	<string name="screen_record">Record game</string>
+	<string name="screen_record_description">You can record and share your game. The screen recording process will use the microphone, so you can give commentary as you\'re playing. Continue?</string>
+	<string name="standard_definition">SD</string>
+	<string name="high_definition">HD</string>
+	<string name="buoy_continue">Continue</string>
+	<string name="buoy_svid_amount_max_length">You have reached the time limit. Your game recording has been saved.</string>
+	<string name="buoy_gamebox_sign_invalid_msg">HiGame client signature verification is not legitimate. Use of this service is prohibited.</string>
+	<string name="buoy_init_record_service">Initializing game recording service…</string>
+	<string name="buoy_msg_app_not_install">App not installed. Cannot enter.</string>
+	<string name="buoy_msg_app_download_failed">Download failed.</string>
+	<string name="buoy_msg_no_new_version">Updated version not detected.</string>
+	<string name="buoy_game_user_role">Role:</string>
+	<string name="buoy_game_user_area">Area:</string>
+	<string name="buoy_game_user_rank">Level:</string>
+	<string name="buoy_game_user_login_time">Login time:</string>
+	<string name="buoy_game_user_login_info">Information:</string>
+	<string name="buoy_msg_copy_successs">Successfully copied.</string>
+	<string name="buoy_tips_record_usage">Touch the dock for 2 seconds to quickly start recording your game.</string>
+	<string name="buoy_back">Back</string>
+	<string name="buoy_install">Install</string>
+	
+	<!-- 快捷支付 -->
+	<string name="pay_plugn_msg_install_service">Installing quick pay service…</string>
+	<string name="pay_plugn_msg_check_version">Checking quick pay version…</string>
+	
+	<string name="tab_name_switch_account">Switch</string>
+	<string name="buoy_splash_skip">Skip</string>
+	
+	<string name="buoy_server_exception">No server response, please try again(%1$s).</string>
+	<string name="buoy_server_response_error">Unable to get data, please try again later (%1$s)</string>
+	<string name="buoy_network_error">No Internet connection, please check network settings.</string>
+	<string name="buoy_retry">Retry</string>
+	<string name="buoy_server_retry">No server response, please try again(%1$s).</string>
+	<string name="buoy_download_storage_not_enough">the storage is not enough(%1$s).</string>
+	<string name="buoy_download_higame_error">Download the Higame failed，please try again(%1$s).</string>
+	<string name="buoy_dialog_install_gamebox_title">Install Notice</string>
+	<string name="buoy_dialog_install_gamebox_msg">You need to install the HiGame to login the Huawei ID and pay in the game. Do you want to install it?</string>
+	<string name="buoy_dialog_update_gamebox_update">Update Notice</string>
+	<string name="buoy_dialog_update_gamebox_msg">You need to update the HiGame to login the Huawei ID and pay in the game. Do you want to update it?</string>
+	<string name="buoy_get_account_loading_msg">Loading…Please wait.</string>
+</resources>

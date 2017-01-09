@@ -1,0 +1,6 @@
+export JAVA_HOME=/data/typesdk/software/java
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export ANT_HOME=/data/typesdk/software/ant/ant_1.9
+export ANDROID_HOME=/data/typesdk/software/android-sdk-linux
+export NODE_HOME=/data/typesdk/software/node
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$NODE_HOME/bin:$PATH

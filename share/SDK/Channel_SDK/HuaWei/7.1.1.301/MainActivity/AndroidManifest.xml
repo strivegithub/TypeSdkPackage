@@ -1,0 +1,125 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="@package@"
+    android:versionCode="@version.code@"
+    android:versionName="@version.name@"
+    android:installLocation="auto">
+
+    <uses-sdk
+        android:minSdkVersion="@minSdkVersion@"
+        android:targetSdkVersion="@targetSdkVersion@" />
+    
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    
+    <!-- sdk -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="com.huawei.hwid.permission.ACCESS" />
+    <uses-permission android:name="com.huawei.appmarket.provider.readPermission"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- end -->
+    
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature android:name="android.hardware.touchscreen" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch.distinct"
+        android:required="false" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.type.sdk.application.TypeApplication"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.type.sdk.android.huawei.MainActivity"
+            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="sensorLandscape" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="unityplayer.UnityActivity"
+                android:value="true" />
+            <meta-data
+                android:name="unityplayer.ForwardNativeEventsToDalvik"
+                android:value="false" />
+        </activity>
+        <!-- sdk start -->
+        <!-- 浮标依赖的Activity声明，建议将此Activity的屏幕方向与应用的屏幕方向设置为一样的 -->
+        <activity
+            android:name="com.huawei.gameservice.sdk.view.dialog.NoticeActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/buoy_baseDialog"/>
+        <activity android:name="com.huawei.gameservice.sdk.view.dialog.UpdateActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/buoy_baseDialog"/>
+        <activity
+            android:name="com.huawei.gameservice.sdk.view.dialog.BaseDialogActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/buoy_baseDialog" >
+        </activity>
+        <activity
+            android:name="com.huawei.gameservice.sdk.view.dialog.DownloadProgressDialogActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/buoy_baseDialog" >
+        </activity>
+        <activity
+            android:name="com.huawei.gameservice.sdk.view.SplashImageActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name="com.huawei.gameservice.sdk.view.DummyActivity"
+            android:exported="false"
+            android:theme="@style/buoy_baseDialog" >
+        </activity>
+        <!-- 浮标中下载依赖的广播 -->
+        <receiver
+            android:name="com.huawei.gameservice.sdk.service.download.DownloadBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+        <!-- 注意:如果游戏的targetSDK大于等于24时，在游戏中必须申明此Provider，否则影响N版本下使用
+        SDK安装华为游戏中心; 如果游戏的targetSDK小于24，则可以不配置此Provider -->
+        <!-- 其中android:authorities里“游戏包名”必须要替换为游戏自己包名，否则会导致冲突，游戏无法安装! -->
+        <!-- 详细说明请参考SDK接口文档 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="@package@.installnewtype.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+            android:name="android.support.FILE_PROVIDER_PATHS"
+            android:resource="@xml/buoy_provider_paths" /> </provider>
+        <!-- end -->
+    </application>
+</manifest>

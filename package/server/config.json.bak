@@ -1,0 +1,8 @@
+{
+    "SHARE_PATH": "/data/typesdk/share/",	
+    "SHELL_PATH": "/data/typesdk/package/shell/",
+    "SHELL_FILE": "auto_package_new.sh",
+    "INTERVAL": "30000",
+    "WEB_SERVER_IP": "managerserver",
+    "PLATFORM": "Android"
+}
