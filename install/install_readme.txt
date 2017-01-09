@@ -7,7 +7,7 @@ TypeSDK Package工具有2种模式可以选择：单机模式、集群模式。
 mkdir -p /data/typesdk
 2. 安装git工具，并clone整个TypeSDK_Package项目。如服务器无外网环境，可在其他有外网的服务器上直接整个项目压缩文件，解压至/data/typesdk
 cd /data/typesdk
-git clone https://code.aliyun.com/typesdk/TypeSdk_Package.git /data/typesdk/
+git clone https://code.csdn.net/typesdk_code/typesdk_package.git /data/typesdk/
 3. 运营安装脚本
 /data/typesdk/install/install.sh
 4. 安装完成后,使用sdk用户启动任务调度器

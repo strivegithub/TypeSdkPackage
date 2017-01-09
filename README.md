@@ -157,10 +157,10 @@
     <span style="font-size: 19px; font-family: 黑体; color: rgb(255, 0, 0);">特别注意：</span>
 </h3>
 <h3 style="margin: 16px 0;background: white">
-    <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px; font-family: Arial, sans-serif;">1</span><span style="font-size: 19px;">、</span><span style="font-size: 19px; font-family: 黑体;">项目大约5G，压缩后1.3G，其中包含了GoogleAndroidSDK和渠道SDK所以比较庞大，请不要直接在页面上点击下载</span></span>
+    <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px; font-family: Arial, sans-serif;">1</span><span style="font-size: 19px;">、</span><span style="font-size: 19px; font-family: 黑体;">运行安装脚本后会下载相关谷歌sdk和相关java环境</span></span>
 </h3>
 <h3 style="margin: 16px 0;background: white">
-    <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px; font-family: Arial, sans-serif;">2</span><span style="font-size: 19px;">、</span><span style="font-size: 19px; font-family: 黑体;">我们的开发环境为Centos6.8_x64，谷歌安卓SDK的linux版本使用了windows系统不支持的文件名，用户必须在linux安装git进行下载。</span></span>
+    <span style="color: rgb(255, 0, 0);"><span style="font-size: 19px; font-family: Arial, sans-serif;">2</span><span style="font-size: 19px;">、</span><span style="font-size: 19px; font-family: 黑体;">如手动安装请到https://code.csdn.net/typesdk/software.git下载相关环境，把software整个目录放在项目下</span></span>
 </h3>
 <hr/>
 <p style="margin: 5px 0 16px">
