@@ -22,4 +22,6 @@ cp /data/typesdk/package/server/config.json.bak /data/typesdk/package/server/con
 sed -i "s/managerserver/$manager_ip/" /data/typesdk/package/server/config.json
 ln -s /data/typesdk/package/shell/startTypeSdkPackage.sh /data/typesdk/startTypeSdkPackage.sh
 chown -R sdk.sdk /data/typesdk.tmp /data/typesdk
+chmod -R 755 /data/typesdk/package/shell
 source /etc/profile
+su - sdk -c /data/typesdk/startTypeSdkPackage.sh

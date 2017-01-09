@@ -11,8 +11,7 @@ git clone https://code.csdn.net/typesdk_code/typesdk_package.git /data/typesdk/
 3. 运营安装脚本
 /data/typesdk/install/install.sh
 4. 安装完成后,使用sdk用户启动任务调度器
-su - sdk
-/data/typesdk/startTypeSdkPackage.sh
+su - sdk -c /data/typesdk/startTypeSdkPackage.sh
 5. 在TypeSDK平台中创建一组渠道打包任务测试。
 
 二、集群模式
