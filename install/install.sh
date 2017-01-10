@@ -5,7 +5,16 @@ echo -e "\033[32m ################################### install typesdkPackge     
 echo -e "\033[32m ################################### website:http://www.typesdk.com ################################### \033[0m"
 echo -e "\033[32m ################################### QQ:1771930259                  ################################### \033[0m"
 echo -e "\033[31m ###################################################################################################### \033[0m"
-read -p "Input TypeSDK Manager server IP:Port :" manager_ip
+read -p "Input TypeSDK Manager server IP(注意:填写TypeSDKManager的地址，不是本机地址):Port :" manager_ip
+myPath="/data/"
+if [ ! -d "$myPath" ]; then  
+	mkdir -p "$myPath"
+fi 
+mkdir  -p /data/typesdk /data/typesdk.tmp
+cd ..
+mv * /data/typesdk 
+cd /data/typesdk 
+rm -rf /data/typesdk/software
 yum -y install git unzip xorg-x11-xauth ld-linux.so.2 libz.so.1 libgcc libgcc_s.so.1 samba cifs-utils
 yum -y groupinstall chinese-support
 git clone https://code.csdn.net/typesdk/software.git
