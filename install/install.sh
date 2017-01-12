@@ -5,7 +5,7 @@ echo -e "\033[32m ################################### install typesdkPackge     
 echo -e "\033[32m ################################### website:http://www.typesdk.com ################################### \033[0m"
 echo -e "\033[32m ################################### QQ:1771930259                  ################################### \033[0m"
 echo -e "\033[31m ###################################################################################################### \033[0m"
-read -p "Input TypeSDK Manager server IP(注意:填写TypeSDKManager的地址，不是本机地址):Port :" manager_ip
+read -p "TypeSDKManager server IP:PORT(填写TypeSDKManager的地址，不是本机地址):Port :" manager_ip
 myPath="/data/"
 if [ ! -d "$myPath" ]; then  
 	mkdir -p "$myPath"
