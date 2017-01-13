@@ -13,7 +13,7 @@
         </tr>
         <tr>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">UC</span>
+                <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">阿里游戏</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
                 <span style="font-family: 黑体, SimHei;">6.1.0<br/></span>
@@ -49,21 +49,21 @@
                 <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(248, 248, 248);">当乐</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">4.3.3</span>
+                <span style="font-family: 黑体, SimHei;">4.3.5</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">4.3.1</span>
+                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">4.3.5</span>
             </td>
         </tr>
         <tr>
             <td valign="top" colspan="1" rowspan="1" style="word-break: break-all;">
-                <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(248, 248, 248);">豌豆荚</span>
+                <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(248, 248, 248);">海马玩</span>
             </td>
             <td valign="top" colspan="1" rowspan="1" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">5.2.3</span>
+                <span style="font-family: 黑体, SimHei;">1.1.9.7</span>
             </td>
             <td valign="top" colspan="1" rowspan="1" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">5.2.3</span>
+                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">1.1.9.7</span>
             </td>
         </tr>
         <tr>
@@ -124,7 +124,7 @@
     </tbody>
 </table>
 <p>
-    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">本周个更新内容较多，阿里游戏聚合渠道更新，取消豌豆荚单独渠道，更换为海马玩</span>
+    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">更新日志170103 添加渠道版本：1.海马玩1.1.9.7 2.当乐3.4.5</span>
 </p>
 <p></p>
 <hr/>
