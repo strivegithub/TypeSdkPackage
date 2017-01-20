@@ -170,16 +170,16 @@
     <span style="font-family: 黑体">官方网站：</span><a href="http://www.typesdk.com"><span style="font-family:黑体;color:black">http://www.typesdk.com</span></a>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">支持渠道列表：</span><a href="http://114.215.254.106/#channel"><span style="font-family:黑体;color:black">支持列表</span></a>
+    <span style="font-family: 黑体">支持渠道列表：</span><a href="http://www.typesdk.com"><span style="font-family:黑体;color:black">支持列表</span></a>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">TypeSdkServer服务器部署文档：</span><a href="http://114.215.254.106/docs/typesdk_install/typesdk_server/"><span style="font-family:黑体;color:black">服务器部署文档</span></a>
+    <span style="font-family: 黑体">TypeSdkServer服务器部署文档：</span><a href="http://www.typesdk.com/docs/typesdk_install/typesdk_server/"><span style="font-family:黑体;color:black">服务器部署文档</span></a>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">游戏服务器接入文档：</span><a href="http://114.215.254.106/docs/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"><span style="font-family:黑体;color:black">游戏服务器接入文档</span></a>
+    <span style="font-family: 黑体">游戏服务器接入文档：</span><a href="http://www.typesdk.com/docs/%E6%9C%8D%E5%8A%A1%E7%AB%AF/"><span style="font-family:黑体;color:black">游戏服务器接入文档</span></a>
 </p>
 <p style="margin: 0 0 16px">
-    <span style="font-family: 黑体">DEMO演示地址：</span><a href="http://114.55.175.18:56789/"><span style="font-family:黑体;color:black">演示地址</span></a><span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 黑体">（用户名和密码：demo@typesdk.com/123.com<span style="font-family: 黑体">）</span>
+    <span style="font-family: 黑体">DEMO演示地址：</span><a href="http://demo.typesdk.com:56789/"><span style="font-family:黑体;color:black">演示地址</span></a><span style="font-family: Calibri, sans-serif">&nbsp;</span><span style="font-family: 黑体">（用户名和密码：demo@typesdk.com/123.com<span style="font-family: 黑体">）</span>
 </p>
 <hr/>
 <p style="margin: 5px 0 16px">
