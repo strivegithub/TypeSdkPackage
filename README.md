@@ -38,7 +38,7 @@
                 <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">百度、91、多酷</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">4.6.11</span>
+                <span style="font-family: 黑体, SimHei;">3.7.3</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
                 <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">3.7.3</span>
@@ -115,7 +115,7 @@
                 <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(255, 255, 255);">华为</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">7.1.1.301</span>
+                <span style="font-family: 黑体, SimHei;">7.2.1.301</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
                 <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">7.2.1.301</span>
@@ -124,7 +124,7 @@
     </tbody>
 </table>
 <p>
-    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">更新日志170103 添加渠道版本：1.海马玩1.1.9.7 2.当乐3.4.5</span>
+    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">更新日志170216 添加渠道版本：1.百度3.7.3  2.华为7.2.1.301</span>
 </p>
 <p></p>
 <hr/>
