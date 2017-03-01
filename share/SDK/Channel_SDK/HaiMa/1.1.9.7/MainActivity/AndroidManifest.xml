@@ -1,10 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hengxiang.wsxsm.haima"
+    package="@package@"
+    android:versionCode="@version.code@"
+    android:versionName="@version.name@"
     android:installLocation="auto" >
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="19" />
+        android:minSdkVersion="@minSdkVersion@"
+        android:targetSdkVersion="@targetSdkVersion@" />
 
     <supports-screens
         android:anyDensity="true"
@@ -158,7 +160,7 @@
         <!-- Ali	  Pay	  Activity	  END -->
         <meta-data
             android:name="HMKey"
-            android:value="appid" />
+            android:value="@app_id@" />
         <!-- SDK中用到的Activity(包括第三方)	  END -->
 		
     </application>
