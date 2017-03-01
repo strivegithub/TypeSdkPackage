@@ -49,10 +49,10 @@
                 <span style="font-family: 黑体; font-size: medium; line-height: normal; text-size-adjust: auto; background-color: rgb(248, 248, 248);">当乐</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei;">4.3.5</span>
+                <span style="font-family: 黑体, SimHei;">4.4.0</span>
             </td>
             <td width="260" valign="top" style="word-break: break-all;">
-                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">4.3.5</span>
+                <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">4.4.0</span>
             </td>
         </tr>
         <tr>
@@ -124,7 +124,7 @@
     </tbody>
 </table>
 <p>
-    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">更新日志170216 添加渠道版本：1.百度3.7.3  2.华为7.2.1.301</span>
+    <span style="font-family: 黑体, SimHei; color: rgb(255, 0, 0);">更新日志170303 更新渠道版本：1.当乐4.4.0</span>
 </p>
 <p></p>
 <hr/>
