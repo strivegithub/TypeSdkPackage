@@ -1,7 +1,0 @@
-package_path=/data/typesdk/package
-tmp_path=/data/typesdk.tmp
-shell_path=$package_path/shell
-share_path=/data/typesdk/share
-log_path=$share_path/output/logs
-sdk_source_path=$share_path/SDK
-git_url=https://code.csdn.net/typesdk/TypeSdk_Packge.git
