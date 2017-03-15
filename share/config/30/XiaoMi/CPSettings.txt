@@ -1,0 +1,13 @@
+﻿{
+"app_id":"12345678",
+"app_key":"123456784",
+"check_update_url":"http://www.typesdk.com/",
+"cp_id":"1001",
+"platform":"unity",
+"sdk_name":"XiaoMi",
+"sdk_request_and_support":"",
+"secret_key":"12345678",
+"channel_id":"7",
+"channelName":"xiaomi",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/7/config.txt"
+}

@@ -1,0 +1,12 @@
+﻿{
+"app_id":"1234",
+"channel_id":"6",
+"channelName":"youku",
+"check_update_url":"	http://www.typesdk.com/",
+"cp_id":"1001",
+"pay_call_back_url":"http://demo.typesdk.com:40000/1001/6/Pay",
+"platform":"unity",
+"sdk_name":"YouKu",
+"sdk_request_and_support":"",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/6/config.txt"
+}

@@ -1,0 +1,13 @@
+﻿{
+"app_id":"1123456",
+"check_update_url":"http://www.typesdk.com/",
+"cp_id":"1001",
+"pay_call_back_url":"http://demo.typesdk.com:40000/1001/10/Pay",
+"platform":"unity",
+"sdk_name":"Oppo",
+"sdk_request_and_support":"support_exit_window",
+"secret_key":"12345678900",
+"channel_id":"10",
+"channelName":"oppo",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/10/config.txt	"
+}

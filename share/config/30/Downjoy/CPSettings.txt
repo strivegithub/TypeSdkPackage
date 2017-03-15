@@ -1,0 +1,14 @@
+﻿{
+"app_id":"1234567",
+"channel_id":"47",
+"channelName":"downjoy",
+"check_update_url":"http:/www.typesdk.com/",
+"cp_id":"1001",
+"platform":"unity",
+"product_id":"1234",
+"sdk_name":"DangLe",
+"sdk_request_and_support":"support_exit_window",
+"secret_key":"12345678",
+"switchconfig_url":"http://demo.typesdk.com:40000/1001/47/config.txt",
+"sdk_cp_id":"1234"
+}

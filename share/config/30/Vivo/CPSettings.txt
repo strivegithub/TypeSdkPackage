@@ -1,0 +1,12 @@
+﻿{
+"app_id":"111111111111",
+"check_update_url":"http://www.typesdk.com/",
+"cp_id":"1001",
+"platform":"unity",
+"sdk_name":"Vivo",
+"sdk_request_and_support":"",
+"channel_id":"14",
+"url":"http://demo.typesdk.com:40000/1001/14/CreateChannelOrder",
+"channelName":"vivo",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/14/config.txt"
+}

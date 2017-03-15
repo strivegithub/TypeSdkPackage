@@ -1,0 +1,15 @@
+﻿{
+"app_id":"123456",
+"check_update_url":"http://www.typesdk.com/",
+"cp_id":"1001",
+"platform":"unity",
+"sdk_cp_id":"1234567890",
+"sdk_name":"HuaWei",
+"sdk_request_and_support":"",
+"channel_id":"9",
+"channelName":"huawei",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/9/config.txt",
+"huawei_key_url":"http://demo.typesdk.com:40000/1001/9/CreateChannelOrder",
+"pay_call_back_url":"http://demo.typesdk.com:40000/1001/9/Pay",
+"company":"XXXX有限责任公司"
+}

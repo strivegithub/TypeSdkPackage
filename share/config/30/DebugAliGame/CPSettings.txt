@@ -1,0 +1,13 @@
+﻿{
+"app_id":"119474",
+"check_update_url":"http://www.typesdk.com",
+"cp_id":"1001",
+"pay_call_back_url":"http://demo.typesdk.com:40000/1001/777/Pay",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/301/config.txt",
+"url":"http://demo.typesdk.com:40000/1001/777/CreateChannelOrder",
+"channel_id":"777",
+"channelName":"uc",
+"platform":"unity",
+"sdk_name":"DebugAliGame",
+"sdk_request_and_support":"support_exit_window"
+}

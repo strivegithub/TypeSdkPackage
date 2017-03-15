@@ -1,0 +1,11 @@
+﻿{
+"app_id":"1234567",
+"channel_id":"54",
+"channelName":"haima",
+"check_update_url":"http://www.typesdk.com",
+"cp_id":"1001",
+"platform":"unity",
+"sdk_name":"HaiMa",
+"sdk_request_and_support":"",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/54/config.txt	"
+}

@@ -1,0 +1,13 @@
+﻿{
+"app_id":"123456",
+"channel_id":"301",
+"channelName":"uc",
+"check_update_url":"http://www.typesdk.com",
+"cp_id":"1001",
+"pay_call_back_url":"http://demo.typesdk.com:40000/1001/301/Pay",
+"platform":"unity",
+"sdk_name":"AliUC",
+"sdk_request_and_support":"support_exit_window",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/301/config.txt",
+"url":"http://demo.typesdk.com:40000/1001/301/CreateChannelOrder"
+}

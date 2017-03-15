@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="replaceKey">
+    <replace dir="." includes="AndroidManifest.xml" encoding="UTF-8">
+    	  <replacefilter token="@package@" value="${package}"/>
+    	  <replacefilter token="@minSdkVersion@" value="${minSdkVersion}"/>
+    	  <replacefilter token="@targetSdkVersion@" value="${targetSdkVersion}"/>
+		  <replacefilter token="@app_key@" value="${app_key}"/>
+		  <replacefilter token="@MainChId@" value="${MainChId}"/>
+		  <replacefilter token="@sdk_name@" value="${sdk_name}"/>
+		  <replacefilter token="@channelName@" value="${channelName}"/>
+    </replace>
+</project>

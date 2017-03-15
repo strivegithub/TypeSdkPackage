@@ -1,0 +1,12 @@
+﻿{
+"app_id":"123456",
+"app_key":"123456",
+"check_update_url":"http://www,typesdk.com",
+"cp_id":"1001",
+"platform":"unity",
+"sdk_name":"Baidu",
+"sdk_request_and_support":"support_exit_window",
+"channel_id":"5",
+"channelName":"baidu",
+"switchconfig_url":"http://demo.typesdk.com:30003/getConfig/1001/5/config.txt"
+}
